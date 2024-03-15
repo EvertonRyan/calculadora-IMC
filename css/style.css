@@ -71,6 +71,14 @@ html, body {
     #container, .dadosUsuario {
         gap: 2.5rem;
     }
+
+    .dadosUsuario > input {
+        width: 450px;
+    }
+
+    .dadosUsuario > input[type = button] {
+        width: 350px;
+    }
 }
 
 @media screen and (min-width: 1025px) {
