@@ -12,13 +12,13 @@ function calcular() {
 
         if (imc < 18.5) {
             parag.innerHTML = `Abaixo do peso! <br> IMC (${imc.toFixed(2).replace('.' , ',')})`;
-        } else if (imc >= 18.5 & imc < 25) {
+        } else if (imc >= 18.5 && imc < 25) {
             parag.innerHTML = `Parabéns! <br> Peso ideal (IMC ${imc.toFixed(2).replace('.' , ',')})`;
-        } else if (imc >= 25 & imc < 30) {
+        } else if (imc >= 25 && imc < 30) {
             parag.innerHTML = `Sobrepeso! <br> IMC ${imc.toFixed(2).replace('.' , ',')}`;
-        } else if (imc >= 30 & imc < 35) {
+        } else if (imc >= 30 && imc < 35) {
             parag.innerHTML = `Obesidade elevada! <br> IMC ${imc.toFixed(2).replace('.' , ',')}`;
-        } else if (imc >= 35 & imc < 40) {
+        } else if (imc >= 35 && imc < 40) {
             parag.innerHTML = `Obesidade severa! <br> IMC ${imc.toFixed(2).replace('.' , ',')}`;
         } else if (imc >= 40) {
             parag.innerHTML = `Obesidade mórbida! <br> IMC ${imc.toFixed(2).replace('.' , ',')}`;
